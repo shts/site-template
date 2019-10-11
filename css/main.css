@@ -1,0 +1,26 @@
+/* https://vuetifyjs.com/en/styles/colors#colors */
+:root {
+  --color-primary: #8BC34A;
+  --color-primary-dark: #689F38;
+  --color-accent: #F57C00;
+  --color-accent-dark: #E65100;
+
+  --main-background-color: #F5F5F5;
+  --base-background-color: #EEEEEE;
+
+  --main-text: #212121;
+  --sub-text: #424242;
+
+  --border: #CDCDCD;
+}
+
+
+body {
+  background-color: var(--base-background-color);
+  color: var(--main-text);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+}
